@@ -1,0 +1,32 @@
+{
+    "name": "markguinn/silvershop-stripe",
+    "description": "Stripe.js payment integration for SilverShop e-commerce",
+    "type": "silverstripe-module",
+    "homepage": "http://github.com/markguinn/silvershop-stripe",
+    "keywords": [
+        "silverstripe",
+        "silvershop",
+        "payment",
+        "stripe",
+        "stripejs"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Guinn",
+            "email": "markguinn@gmail.com"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "^3.1",
+        "silvershop/core": "^2.0",
+        "silverstripe/silverstripe-omnipay": "^2.0",
+        "omnipay/stripe": "^2.4"
+    },
+    "support": {
+        "issues": "http://github.com/markguinn/silvershop-stripe/issues"
+    },
+    "extra": {
+        "installer-name": "silvershop-stripe"
+    }
+}

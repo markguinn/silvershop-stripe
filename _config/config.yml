@@ -1,0 +1,10 @@
+---
+Name: shopbraintree
+---
+Injector:
+  OnsitePaymentCheckoutComponent:
+    class: StripePaymentCheckoutComponent
+#GatewayInfo:
+#  Braintree:
+#    parameters:
+#      token_key: payment_method_nonce
